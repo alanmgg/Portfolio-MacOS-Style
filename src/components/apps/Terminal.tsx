@@ -370,7 +370,7 @@ export default class Terminal extends Component<{}, TerminalState> {
       <div key={`terminal-input-row-${id}`} className="w-full h-6 flex">
         <div className="w-max hstack">
           <span className="text-yellow-200">
-            zou@macbook-pro{" "}
+            alan@macbook-pro{" "}
             <span className="text-green-300">{this.getCurDirName()}</span>
           </span>
           <span className="ml-1.5 text-red-400">{">"}</span>
@@ -411,7 +411,7 @@ export default class Terminal extends Component<{}, TerminalState> {
           />
         )}
         <div className="w-full h-max pt-2 px-1.5 ">
-          <span className="text-green-300">ヽ(ˋ▽ˊ)ノ</span>: Hey, you found the
+          <span className="text-green-300">{getEmoji()}</span>: Hey, you found the
           terminal! Type `help` to get started.
         </div>
         <div id="terminal-content" className="mt-2 px-1.5 pb-2">
